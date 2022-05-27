@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9EBE9"
+    tools:context=".InfoActivity">
+
+    //header
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85sp"
+        android:orientation="horizontal"
+        android:background="#80C9FF">
+
+        <ImageView
+            android:id="@+id/bektumen"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:src="@drawable/beck"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp">
+        </ImageView>
+
+        //Info-aplikasi Text
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENU"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="97sp"
+            android:fontFamily="@font/overlockblack"
+            android:textSize="27sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    //Menu
+
+    //buah
+    <androidx.cardview.widget.CardView
+        android:id="@+id/buah"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="55sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="60sp">>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110sp"
+            android:src="@drawable/buah"
+            android:layout_marginTop="10sp">
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/menubuah"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="140sp"
+            android:layout_marginRight="55sp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#32CD19"
+            app:cardCornerRadius="20sp">>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_marginLeft="13sp"
+                android:layout_marginRight="13sp"
+                android:fontFamily="@font/overlockblackitalic"
+                android:text="Buah - buahan"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    //sayur
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sayur"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="55sp"
+        android:layout_marginTop="45sp"
+        android:layout_marginRight="55sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="60sp">>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:src="@drawable/sayur"
+            android:layout_marginTop="10sp">
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/menusayur"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="140sp"
+            android:layout_marginRight="55sp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#32CD19"
+            app:cardCornerRadius="20sp">>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_marginLeft="13sp"
+                android:layout_marginRight="13sp"
+                android:fontFamily="@font/overlockblackitalic"
+                android:text="Sayuran"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

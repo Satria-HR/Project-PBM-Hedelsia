@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9EBE9"
+    tools:context=".InfoActivity">
+
+    //header
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85sp"
+        android:orientation="horizontal"
+        android:background="#80C9FF">
+
+        <ImageView
+            android:id="@+id/bektumen"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:src="@drawable/beck"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp">
+        </ImageView>
+
+        //Info-aplikasi Text
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFO APLIKASI"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35sp"
+            android:fontFamily="@font/overlockblack"
+            android:textSize="27sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:layout_marginTop="45sp"
+        android:orientation="horizontal">
+
+        //HedelsiaBrand
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEDELSIA"
+            android:textAlignment="center"
+            android:shadowColor="@color/black"
+            android:fontFamily="@font/overlockblackitalic"
+            android:textSize="33sp"
+            android:textColor="#21950E"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    //Deskripsi
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#21950E"
+        app:cardCornerRadius="25dp">>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#07C58C"
+            android:orientation="vertical">
+
+            //HedelsiaBrand
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="@font/overlockbolditalic"
+            android:text="@string/infoApp"
+            android:textAlignment="center"
+            android:justificationMode="inter_word"
+            android:lineHeight="19sp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="175sp"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            android:fontFamily="@font/overlockitalic"
+            android:shadowColor="@color/black"
+            android:text="Copyright © 2022"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

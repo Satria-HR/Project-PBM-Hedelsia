@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9EBE9"
+    tools:context=".InfoActivity">
+
+    //header
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85sp"
+        android:orientation="horizontal"
+        android:background="#80C9FF">
+
+        <ImageView
+            android:id="@+id/bektumenubuah"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:src="@drawable/beck"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp">
+        </ImageView>
+
+        //header
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUAH - BUAHAN"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="55sp"
+            android:fontFamily="@font/overlockblack"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    //Deskripsi
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="50dp">>
+
+        <ImageView
+            android:layout_width="120sp"
+            android:layout_marginLeft="210sp"
+            android:layout_marginTop="15sp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alpukat">
+        </ImageView>
+
+        <TextView
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="35sp"
+            android:layout_marginLeft="20sp"
+            android:fontFamily="@font/overlockblack"
+            android:shadowColor="@color/black"
+            android:text="Alpukat"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/scrollal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23sp"
+            android:layout_marginTop="90sp"
+            android:layout_marginBottom="25sp"
+            android:layout_marginRight="23sp"
+            android:fontFamily="@font/overlockbold"
+            android:text=" Avokad atau alpukat (Persea americana) adalah tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari Meksiko dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika Tengah sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di daerah-daerah tropika lainnya di dunia. Ukurannya bervariasi dari 7 cm ~ 20 cm, dengan massa 100 hingga 1000 gram; biji yang besar, 5 cm ~ 6,4 cm.\n\nBuahnya bertipe buni, memiliki kulit lembut tak rata berwarna hijau tua hingga ungu kecoklatan, tergantung pada varietasnya. Daging buah alpukat berwarna hijau muda dekat kulit dan kuning muda dekat biji, dengan tekstur lembut."
+            android:lineHeight="17dp"
+            android:justificationMode="inter_word"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:scrollbars="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="50dp">>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:fontFamily="@font/overlockbolditalic"
+            android:shadowColor="@color/black"
+            android:text="Manfaat"
+            android:textColor="#000000"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/scrollmanal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="23sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginBottom="25sp"
+            android:layout_marginRight="23sp"
+            android:fontFamily="@font/overlockitalic"
+            android:text="a. Menjaga kesehatan mata;\nb. Membantu saraf berfungsi dan otot berkontraksi;\nc. Membantu detak jantung agar tetap teratur;\nd. Membantu mencegah kanker;\ne. Menurunkan kolesterol;\nf. Menurunkan berat badan;\ng. Meningkatkan daya ingat dan kesehatan otak;\n"
+            android:textColor="#000000"
+            android:lineHeight="23dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:scrollbars="vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9EBE9"
+    tools:context=".InfoActivity">
+
+    //header
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85sp"
+        android:orientation="horizontal"
+        android:background="#80C9FF">
+
+        <ImageView
+            android:id="@+id/bektumenu"
+            android:layout_width="65sp"
+            android:layout_height="65sp"
+            android:src="@drawable/beck"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp">
+        </ImageView>
+
+        //header
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAYURAN"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="73sp"
+            android:fontFamily="@font/overlockblack"
+            android:textSize="27sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    //JumlahSayur
+    <androidx.cardview.widget.CardView
+        android:id="@+id/jumlahsayur"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginLeft="55sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="55sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="23sp">>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            android:layout_marginTop="4sp"
+            android:fontFamily="@font/overlockbolditalic"
+            android:text="Jumlah : 3 jenis"
+            android:textColor="#000000"
+            android:textSize="18sp">
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    //asparagus
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="35sp"
+        android:layout_marginRight="25sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#A5FA4F"
+        app:cardCornerRadius="25sp">>
+
+        <TextView
+            android:id="@+id/aspartomb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/overlockblack"
+            android:text="ASPARAGUS"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    //bayam
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bayam"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="25sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#A5FA4F"
+        app:cardCornerRadius="25sp">>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/overlockblack"
+            android:text="BAYAM"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    //buncis
+    <androidx.cardview.widget.CardView
+        android:id="@+id/buncis"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="25sp"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#A5FA4F"
+        app:cardCornerRadius="25sp">>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginLeft="13sp"
+            android:layout_marginRight="13sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="@font/overlockblack"
+            android:text="BUNCIS"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

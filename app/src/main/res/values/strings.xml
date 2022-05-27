@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HEDELSIA</string>
+    <string name="asparagusdes"> Asparagus adalah suatu jenis sayuran dari satu spesies tumbuhan genus Asparagus, terutama batang muda dari Asparagus officinalis. Asparagus telah digunakan sejak lama sebagai bahan makanan karena rasanya yang sedap dan sifat diuretiknya. Sumber terbaik asam folat nabati, sangat rendah kalori, tidak mengandung lemak atau kolesterol, serta mengandung sangat sedikit natrium.\n\nSangat rendah sodium. Sumber yang baik untuk vitamin B6, kalsium, magnesium dan seng, dan sumber yang sangat baik serat, protein, vit.A, vit.C, vit.E, vit.K, thiamin, riboflavin, rutin, niacin, asam folat, besi, fosfor, kalium, tembaga, mangan dan selenium. Asam amino asparagina berasal dari asparagus, tanaman asparagus kaya akan kandungan bahan yang satu ini.</string>
+    <string name="infoApp">HEDELSIA adalah aplikasi informasi-edukasi seputar buah-buahan dan sayuran. Berasal dari bahasa Finlandia, ‘Hedelmiä ja kasviksia’ yang artinya ‘Buah-buahan dan Sayuran’. Aplikasi ini dirancang oleh dua mahasiswa Informatika USK angkatan 2019, Satria Hikmatul Razaqi (1908107010056) dan Mufid akbar (1908107010091); untuk project matakuliah Pemrograman Berbasis Mobile.</string>
+    <string name="manfaspar">\na. Mencegah penyakit kronis;\n
+        \nb. Melancarkan saluran pencernaan;\n\n
+        \nc. Menjaga kesehatan janin;\n\n
+        \nd. Mencegah pertumbuhan sel kanker;\n\n
+        \ne. Menjaga tekanan darah tetap stabil;\n\n
+        \nf. Mengontrol gula darah;\n\n
+        \ng. Menjaga berat badan.\n\n
+    </string>
+    <string name="manfalpu">a. Menjaga kesehatan mata;\nb. Membantu saraf berfungsi dan otot berkontraksi;\nc. Membantu detak jantung agar tetap teratur;\nd. Membantu mencegah kanker;\ne. Menurunkan kolesterol;\nf. Menurunkan berat badan;\ng. Meningkatkan daya ingat dan kesehatan otak;\n</string>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D9EBE9"
+    tools:context=".InfoActivity">
+
+        //header
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85sp"
+            android:orientation="horizontal"
+            android:background="#80C9FF">
+
+            <ImageView
+                android:id="@+id/bektumenusayur"
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:src="@drawable/beck"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp">
+            </ImageView>
+
+            //header
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAYURAN"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="87sp"
+                android:fontFamily="@font/overlockblack"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25sp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="50dp">>
+
+            <ImageView
+                android:layout_width="120sp"
+                android:layout_marginLeft="210sp"
+                android:layout_marginTop="15sp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/asparagus">
+            </ImageView>
+
+            <TextView
+                android:layout_width="170sp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="35sp"
+                android:layout_marginLeft="20sp"
+                android:fontFamily="@font/overlockblack"
+                android:shadowColor="@color/black"
+                android:text="Asparagus"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/scrollas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23sp"
+                android:layout_marginTop="90sp"
+                android:layout_marginBottom="30sp"
+                android:layout_marginRight="23sp"
+                android:fontFamily="@font/overlockbold"
+                android:text="Asparagus adalah suatu jenis sayuran dari satu spesies tumbuhan genus Asparagus, terutama batang muda dari Asparagus officinalis. Asparagus telah digunakan sejak lama sebagai bahan makanan karena rasanya yang sedap dan sifat diuretiknya. Sumber terbaik asam folat nabati, sangat rendah kalori, tidak mengandung lemak atau kolesterol, serta mengandung sangat sedikit natrium.\n\nSangat rendah sodium. Sumber yang baik untuk vitamin B6, kalsium, magnesium dan seng, dan sumber yang sangat baik serat, protein, vit.A, vit.C, vit.E, vit.K, thiamin, riboflavin, rutin, niacin, asam folat, besi, fosfor, kalium, tembaga, mangan dan selenium. Asam amino asparagina berasal dari asparagus, tanaman asparagus kaya akan kandungan bahan yang satu ini."
+                android:lineHeight="17dp"
+                android:justificationMode="inter_word"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:scrollbars = "vertical"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25sp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="50dp">>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="25sp"
+                android:layout_marginLeft="25sp"
+                android:layout_marginRight="25sp"
+                android:fontFamily="@font/overlockbolditalic"
+                android:shadowColor="@color/black"
+                android:text="Manfaat"
+                android:textColor="#000000"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/scrollmanas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23sp"
+                android:layout_marginTop="65sp"
+                android:layout_marginBottom="30sp"
+                android:layout_marginRight="23sp"
+                android:fontFamily="@font/overlockitalic"
+                android:text="a. Mencegah penyakit kronis;\nb. Melancarkan saluran pencernaan;\nc. Menjaga kesehatan janin;\nd. Mencegah pertumbuhan sel kanker;\ne. Menjaga tekanan darah tetap stabil;\nf. Mengontrol gula darah;\ng. Menjaga berat badan.\n"
+                android:textColor="#000000"
+                android:lineHeight="23dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:scrollbars="vertical"/>
+
+        </androidx.cardview.widget.CardView>
+
+</LinearLayout>
